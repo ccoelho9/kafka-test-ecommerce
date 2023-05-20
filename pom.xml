@@ -1,12 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>br.com.alura</groupId>
-  <artifactId>kafka-test-ecommerce</artifactId>
-  <packaging>war</packaging>
+
+  <groupId>org.example</groupId>
+  <artifactId>ecommerce</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>kafka-test-ecommerce Maven Webapp</name>
+  <packaging>jar</packaging>
+
+  <name>ecommerce</name>
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,7 +22,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>kafka-test-ecommerce</finalName>
-  </build>
 </project>
